@@ -11,7 +11,7 @@ export default function Dashboard() {
         <title>Dashboard</title>
       </Head>
 
-      <h1>Dashboard: ${user?.email}</h1>
+      <h1>Dashboard: {user?.email}</h1>
     </>
   );
 }
