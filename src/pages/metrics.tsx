@@ -3,7 +3,7 @@ import Head from "next/head";
 import { setupAPIClient } from "../services/api";
 import { withSSRAuth } from "../utils/withSSRAuth";
 
-export default function Dashboard() {
+export default function Metrics() {
   return (
     <>
       <Head>
